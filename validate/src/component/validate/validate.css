@@ -1,0 +1,28 @@
+.validated-input {
+  margin-bottom: 1rem;
+}
+
+.validated-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.validated-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.validated-field.error {
+  border-color: red;
+  background-color: #ffe6e6;
+}
+
+.validated-error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  display: block;
+}
